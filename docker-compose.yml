@@ -1,8 +1,9 @@
 geoip:
-  image: convox/geoip
+  image: geoip
   environment:
     - GEOIP_BASIC_AUTH=false
     - GEOIP_USERNAME=""
     - GEOIP_PASSWORD=""
+    - MAXMIND_LICENSE_KEY=$MAXMIND_LICENSE_KEY
   ports:
-    - "80:8080"
+    - "8080:8080"
