@@ -2,6 +2,11 @@
 
 This image wraps the free MaxMind GeoLite2 City database in a simple JSON api.
 
+## Get a license key
+
+To download the database, you need to [obtain a license key from
+MaxMind](https://dev.maxmind.com/geoip/updating-databases?lang=en#directly-downloading-databases).
+
 ## Build the container
 
     $ docker build . -t geoip
